@@ -6,7 +6,7 @@
   <title>PT Skill Nusa Infotama | System Network Integration & Technology Solution Provider</title>
   
   <!-- SEO & Meta Tags -->
-  <meta name="description" content="PT Skill Nusa Infotama - Penyedia solusi total System Network Integration, Managed IT Services, Hardware & Software Consultant terpercaya di Bandung sejak 1999. Mitra resmi enterprise dan instansi pemerintah.">
+  <meta name="description" content="PT Skill Nusa Infotama - Penyedia solusi total System Network Integration, Managed IT Services, Hardware & Software Consultant terpercaya di Bandung sejak 1999. Mitra enterprise dan instansi pemerintah.">
   <meta name="keywords" content="PT Skill Nusa Infotama, Skill Nusa, Network Integration Bandung, Penyedia Solusi IT, Managed Service IT Bandung, Pengadaan Server Komputer, Instalasi Jaringan Fiber Optic, Smart Surveillance CCTV, IT Consultant Bandung">
   <meta name="author" content="PT Skill Nusa Infotama">
   <meta name="robots" content="index, follow">
@@ -74,13 +74,13 @@
 
       <!-- Desktop Navigation Menu -->
       <nav class="nav-links" aria-label="Main Navigation">
-        <a href="#beranda" class="nav-link active">Beranda</a>
-        <a href="#solusi" class="nav-link">Produk & Solusi</a>
-        <a href="#advisor" class="nav-link">Solution Finder</a>
-        <a href="#kalkulator" class="nav-link">Kalkulator TCO</a>
-        <a href="#portofolio" class="nav-link">Portofolio</a>
-        <a href="#tentang-kami" class="nav-link">Tentang Kami</a>
-        <a href="#kontak" class="nav-link">Kontak</a>
+        <a href="#beranda" class="nav-link active" data-i18n="nav_home">Beranda</a>
+        <a href="#solusi" class="nav-link" data-i18n="nav_solutions">Produk & Solusi</a>
+        <a href="#advisor" class="nav-link" data-i18n="nav_advisor">Solution Finder</a>
+        <a href="#kalkulator" class="nav-link" data-i18n="nav_calculator">Kalkulator TCO</a>
+        <a href="#portofolio" class="nav-link" data-i18n="nav_portfolio">Portofolio</a>
+        <a href="#tentang-kami" class="nav-link" data-i18n="nav_about">Tentang Kami</a>
+        <a href="#kontak" class="nav-link" data-i18n="nav_contact">Kontak</a>
       </nav>
 
       <!-- Utility Actions -->
@@ -108,7 +108,7 @@
 
         <!-- CTA Button -->
         <a href="#kontak" class="btn btn-primary btn-sm" data-open-modal>
-          <span>Konsultasi IT</span>
+          <span data-i18n="nav_consult_btn">Konsultasi IT</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
@@ -136,17 +136,24 @@
       <button type="button" class="drawer-close icon-btn" aria-label="Tutup Menu">✕</button>
     </div>
     <nav style="display:flex; flex-direction:column; gap:1.2rem; margin-top:1rem;">
-      <a href="#beranda" class="nav-link">Beranda</a>
-      <a href="#solusi" class="nav-link">Produk & Solusi</a>
-      <a href="#advisor" class="nav-link">Solution Finder</a>
-      <a href="#kalkulator" class="nav-link">Kalkulator TCO</a>
-      <a href="#portofolio" class="nav-link">Portofolio</a>
-      <a href="#tentang-kami" class="nav-link">Tentang Kami</a>
-      <a href="#kontak" class="nav-link">Kontak & Lokasi</a>
+      <a href="#beranda" class="nav-link" data-i18n="nav_home">Beranda</a>
+      <a href="#solusi" class="nav-link" data-i18n="nav_solutions">Produk & Solusi</a>
+      <a href="#advisor" class="nav-link" data-i18n="nav_advisor">Solution Finder</a>
+      <a href="#kalkulator" class="nav-link" data-i18n="nav_calculator">Kalkulator TCO</a>
+      <a href="#portofolio" class="nav-link" data-i18n="nav_portfolio">Portofolio</a>
+      <a href="#tentang-kami" class="nav-link" data-i18n="nav_about">Tentang Kami</a>
+      <a href="#kontak" class="nav-link" data-i18n="nav_contact">Kontak</a>
     </nav>
+    <div style="margin-top:1.5rem; display:flex; align-items:center; justify-content:space-between; padding:0.75rem 0; border-top:1px solid var(--border-color);">
+      <span style="font-size:0.85rem; font-weight:600; color:var(--text-muted);" data-i18n="lang_select_label">Pilih Bahasa:</span>
+      <div class="lang-selector" title="Pilih Bahasa">
+        <button type="button" class="lang-btn active" data-lang="id">ID</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
     <div style="margin-top:auto; display:flex; flex-direction:column; gap:0.75rem;">
-      <a href="#kontak" class="btn btn-primary" data-open-modal style="width:100%; text-align:center;">Minta Penawaran</a>
-      <a href="https://wa.me/62811206820" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width:100%;">Hubungi via WhatsApp</a>
+      <a href="#kontak" class="btn btn-primary" data-open-modal style="width:100%; text-align:center;" data-i18n="drawer_quote_btn">Minta Penawaran</a>
+      <a href="https://wa.me/62811206820" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width:100%;" data-i18n="drawer_wa_btn">Hubungi via WhatsApp</a>
     </div>
   </aside>
 
@@ -159,20 +166,20 @@
       <div class="hero-content">
         <div class="hero-pill">
           <span class="pulse-dot"></span>
-          <span class="hero-pill-text">🚀 Solusi Total IT & System Network Integration Sejak 1999</span>
+          <span class="hero-pill-text" data-i18n="hero_pill">🚀 Solusi Total IT & System Network Integration Sejak 1999</span>
         </div>
 
-        <h1 class="hero-title">
+        <h1 class="hero-title" data-i18n-html="hero_title">
           Transformasi <span class="gradient-text">Infrastruktur Digital</span> & Solusi IT Total Perusahaan Anda
         </h1>
 
-        <p class="hero-desc">
+        <p class="hero-desc" data-i18n="hero_desc">
           PT Skill Nusa Infotama menghadirkan System Network Integration, Managed IT Services, Hardware Procurement & Software Architecture berstandar enterprise dengan keandalan tanpa kompromi.
         </p>
 
         <div class="hero-cta-group">
           <a href="#solusi" class="btn btn-primary" id="cta-explore-btn">
-            <span>Jelajahi Solusi Kami</span>
+            <span data-i18n="hero_btn_explore">Jelajahi Solusi Kami</span>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
@@ -181,7 +188,7 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
             </svg>
-            <span>Konsultasi Kebutuhan IT</span>
+            <span data-i18n="hero_btn_consult">Konsultasi Kebutuhan IT</span>
           </button>
         </div>
 
@@ -189,19 +196,19 @@
         <div class="hero-stats">
           <div class="stat-item">
             <div class="stat-num">25+</div>
-            <div class="stat-label">Tahun Pengalaman (Est. 1999)</div>
+            <div class="stat-label" data-i18n="stat_years">Tahun Pengalaman (Est. 1999)</div>
           </div>
           <div class="stat-item">
             <div class="stat-num">500+</div>
-            <div class="stat-label">Proyek Enterprise & BUMN</div>
+            <div class="stat-label" data-i18n="stat_projects">Proyek Enterprise & BUMN</div>
           </div>
           <div class="stat-item">
             <div class="stat-num">99.9%</div>
-            <div class="stat-label">Jaminan Uptime SLA Jaringan</div>
+            <div class="stat-label" data-i18n="stat_uptime">Jaminan Uptime SLA Jaringan</div>
           </div>
           <div class="stat-item">
             <div class="stat-num">100%</div>
-            <div class="stat-label">Garansi Prinsipal & Spare Part</div>
+            <div class="stat-label" data-i18n="stat_warranty">Garansi Prinsipal & Spare Part</div>
           </div>
         </div>
       </div>
@@ -215,11 +222,11 @@
             <div class="live-indicator">
               <div class="status-beacon"></div>
               <div>
-                <h4>Enterprise Core Network</h4>
-                <p>Bandung NOC Active &bullet; 0.8ms Latency</p>
+                <h4 data-i18n="hero_live_title">Enterprise Core Network</h4>
+                <p data-i18n="hero_live_sub">Bandung NOC Active &bullet; 0.8ms Latency</p>
               </div>
             </div>
-            <div class="live-badge-stat">SLA 24/7 Verified</div>
+            <div class="live-badge-stat" data-i18n="hero_live_sla">SLA 24/7 Verified</div>
           </div>
         </div>
       </div>
@@ -232,7 +239,7 @@
        =================================================================== -->
   <section class="partners-section">
     <div class="container">
-      <p class="partners-title">Didukung oleh Prinsipal Teknologi Global & Terdaftar Resmi</p>
+      <p class="partners-title" data-i18n="partners_title">Didukung oleh Prinsipal Teknologi Global</p>
       <div class="partners-slider">
         <div class="partner-logo-item" title="Cisco Systems">
           <img src="assets/images/vendor_cisco.png" alt="Cisco Systems" class="partner-logo-img">
@@ -272,9 +279,9 @@
     <div class="container">
       
       <div class="text-center">
-        <span class="section-badge">⚡ Smart Recommendation Engine</span>
-        <h2 class="section-title">Interactive Enterprise <span class="gradient-text">Solution Advisor</span></h2>
-        <p class="section-desc">
+        <span class="section-badge" data-i18n="advisor_badge">⚡ Smart Recommendation Engine</span>
+        <h2 class="section-title" data-i18n-html="advisor_title">Interactive Enterprise <span class="gradient-text">Solution Advisor</span></h2>
+        <p class="section-desc" data-i18n="advisor_desc">
           Pilih sektor industri dan kebutuhan spesifik Anda untuk mendapatkan gambaran arsitektur jaringan, rekomendasi perangkat keras, serta skema layanan yang paling optimal.
         </p>
       </div>
@@ -288,14 +295,14 @@
                 <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                 <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
               </svg>
-              1. Sektor Organisasi
+              <span data-i18n="advisor_step1">1. Sektor Organisasi</span>
             </h4>
             <select id="advisor-sector" aria-label="Pilih Sektor Organisasi">
-              <option value="bumn">BUMN & Lembaga Pemerintah</option>
-              <option value="hospital">Rumah Sakit & Fasilitas Kesehatan</option>
-              <option value="edu">Universitas & Lembaga Pendidikan</option>
-              <option value="manufacturing">Pabrik & Manufaktur Industri</option>
-              <option value="corporate">Korporasi Swasta & Finansial</option>
+              <option value="bumn" data-i18n="advisor_opt_bumn">BUMN & Lembaga Pemerintah</option>
+              <option value="hospital" data-i18n="advisor_opt_hospital">Rumah Sakit & Fasilitas Kesehatan</option>
+              <option value="edu" data-i18n="advisor_opt_edu">Universitas & Lembaga Pendidikan</option>
+              <option value="manufacturing" data-i18n="advisor_opt_manufacturing">Pabrik & Manufaktur Industri</option>
+              <option value="corporate" data-i18n="advisor_opt_corporate">Korporasi Swasta & Finansial</option>
             </select>
           </div>
 
@@ -306,13 +313,13 @@
                 <line x1="2" y1="12" x2="22" y2="12"></line>
                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
               </svg>
-              2. Kebutuhan Utama
+              <span data-i18n="advisor_step2">2. Kebutuhan Utama</span>
             </h4>
             <select id="advisor-need" aria-label="Pilih Kebutuhan Utama">
-              <option value="network">Infrastruktur Jaringan & Data Center</option>
-              <option value="security">Sistem Keamanan Siber & CCTV AI</option>
-              <option value="managed">Managed Device Rental & PC Fleet</option>
-              <option value="software">Software Kustom & Cloud Virtualization</option>
+              <option value="network" data-i18n="advisor_opt_network">Infrastruktur Jaringan & Data Center</option>
+              <option value="security" data-i18n="advisor_opt_security">Sistem Keamanan Siber & CCTV AI</option>
+              <option value="managed" data-i18n="advisor_opt_managed">Managed Device Rental & PC Fleet</option>
+              <option value="software" data-i18n="advisor_opt_software">Software Kustom & Cloud Virtualization</option>
             </select>
           </div>
 
@@ -324,12 +331,12 @@
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
-              3. Skala Infrastruktur
+              <span data-i18n="advisor_step3">3. Skala Infrastruktur</span>
             </h4>
             <select id="advisor-scale" aria-label="Pilih Skala Infrastruktur">
-              <option value="enterprise">Skala Enterprise Multi-Gedung / Kampus</option>
-              <option value="large">Skala Menengah (100 - 500 Pengguna)</option>
-              <option value="medium">Skala Kantor Cabang / Regional ( < 100 User)</option>
+              <option value="enterprise" data-i18n="advisor_opt_enterprise">Skala Enterprise Multi-Gedung / Kampus</option>
+              <option value="large" data-i18n="advisor_opt_large">Skala Menengah (100 - 500 Pengguna)</option>
+              <option value="medium" data-i18n="advisor_opt_medium">Skala Kantor Cabang / Regional ( < 100 User)</option>
             </select>
           </div>
 
@@ -355,7 +362,7 @@
               ⚡ Standar Layanan: SLA Response &lt; 2 Jam, 99.98% Uptime
             </div>
             <button type="button" class="btn btn-primary" id="advisor-quote-btn">
-              <span>Konsultasikan Solusi Ini</span>
+              <span data-i18n="advisor_btn_quote">Ajukan Penawaran Spesifikasi Ini</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
@@ -375,10 +382,10 @@
     <div class="container">
       
       <div class="text-center">
-        <span class="section-badge">🛠️ Pilar Solusi Terintegrasi</span>
-        <h2 class="section-title">Portofolio Layanan <span class="gradient-text">PT Skill Nusa Infotama</span></h2>
-        <p class="section-desc">
-          Kombinasi komprehensif antara perangkat keras bergaransi resmi, integrasi jaringan terstandardisasi, perlindungan siber mutakhir, serta layanan managed services.
+        <span class="section-badge" data-i18n="solutions_badge">💼 Layanan Komprehensif</span>
+        <h2 class="section-title" data-i18n-html="solutions_title">Solusi Teknologi & <span class="gradient-text">Layanan Unggulan</span></h2>
+        <p class="section-desc" data-i18n="solutions_desc">
+          Kombinasi komprehensif antara perangkat keras bergaransi, integrasi jaringan terstandardisasi, perlindungan siber mutakhir, serta layanan managed services.
         </p>
       </div>
 
@@ -396,30 +403,30 @@
               </svg>
             </div>
             <div>
-              <h3>System & Network Integration</h3>
-              <span class="service-badge">Core Foundation</span>
+              <h3 data-i18n="sol_1_title">System & Network Integration</h3>
+              <span class="service-badge" data-i18n="sol_1_badge">Core Foundation</span>
             </div>
           </div>
           <div class="service-body">
-            <p>
+            <p data-i18n="sol_1_desc">
               Perancangan dan penggelaran infrastruktur jaringan end-to-end dengan performa tinggi, zero packet-loss, dan skalabilitas jangka panjang untuk instansi pemerintahan dan korporasi.
             </p>
             <ul class="feature-checklist">
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Pembangunan Data Center & Server Room Terstandar
+                <span data-i18n="sol_1_f1">Pembangunan Data Center & Server Room Terstandar</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Structured Cabling & Fiber Optic Backbone Terpadu
+                <span data-i18n="sol_1_f2">Structured Cabling & Fiber Optic Backbone Terpadu</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Core Routing, Switching & SD-WAN Inter-Branch
+                <span data-i18n="sol_1_f3">Core Routing, Switching & SD-WAN Inter-Branch</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                High-Density Enterprise Wireless (WiFi 6/7)
+                <span data-i18n="sol_1_f4">High-Density Enterprise Wireless (WiFi 6/7)</span>
               </li>
             </ul>
           </div>
@@ -429,7 +436,7 @@
               <span class="brand-pill">HPE Aruba</span>
               <span class="brand-pill">MikroTik</span>
             </div>
-            <button type="button" class="btn btn-secondary btn-sm" data-open-modal>Minta Proposal</button>
+            <button type="button" class="btn btn-secondary btn-sm" data-open-modal data-i18n="sol_1_btn">Minta Proposal</button>
           </div>
         </article>
 
@@ -444,30 +451,30 @@
               </svg>
             </div>
             <div>
-              <h3>Hardware Supply & Managed IT Rental</h3>
-              <span class="service-badge">Procurement & Fleet</span>
+              <h3 data-i18n="sol_2_title">Hardware Procurement & Rental Fleet</h3>
+              <span class="service-badge" data-i18n="sol_2_badge">Zero CapEx Solution</span>
             </div>
           </div>
           <div class="service-body">
-            <p>
-              Pengadaan perangkat keras IT resmi serta program sewa / sewa beli (Managed Device Service) untuk memangkas CapEx dan menjamin ketersediaan perangkat operasional tanpa hambatan teknis.
+            <p data-i18n="sol_2_desc">
+              Penyediaan perangkat komputasi enterprise seperti server rackmount, SAN/NAS storage, laptop & PC workstation kantor melalui skema beli langsung atau sewa terkelola.
             </p>
             <ul class="feature-checklist">
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Enterprise Server, NAS / SAN Storage & Backup System
+                <span data-i18n="sol_2_f1">Server Enterprise Rackmount & Tower Bergaransi</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Pengadaan & Rental PC Laptop Workstation Skala Besar
+                <span data-i18n="sol_2_f2">Sewa Laptop & PC Fleksibel (12 - 36 Bulan) Tanpa CapEx</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Smart Meeting Room Display & Proyektor Interaktif
+                <span data-i18n="sol_2_f3">Backup Replacement Unit Siap Pasang Onsite</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Industrial UPS & Power Conditioning (APC Schneider)
+                <span data-i18n="sol_2_f4">Sistem Penyimpanan Terpusat (SAN/NAS) & Backup Disaster</span>
               </li>
             </ul>
           </div>
@@ -478,7 +485,7 @@
               <span class="brand-pill">HP</span>
               <span class="brand-pill">APC</span>
             </div>
-            <button type="button" class="btn btn-secondary btn-sm" data-open-modal>Minta Katalog</button>
+            <button type="button" class="btn btn-secondary btn-sm" data-open-modal data-i18n="sol_2_btn">Katalog Hardware</button>
           </div>
         </article>
 
@@ -491,30 +498,30 @@
               </svg>
             </div>
             <div>
-              <h3>Cybersecurity & AI Smart Surveillance</h3>
-              <span class="service-badge">Total Protection</span>
+              <h3 data-i18n="sol_3_title">Cybersecurity, AI CCTV & Access Control</h3>
+              <span class="service-badge" data-i18n="sol_3_badge">Enterprise Security</span>
             </div>
           </div>
           <div class="service-body">
-            <p>
-              Proteksi aset fisik dan digital terpadu melalui Next-Generation Firewall, pemantauan CCTV dengan pengenalan analitik AI, serta sistem kontrol akses biometrik terpusat.
+            <p data-i18n="sol_3_desc">
+              Perlindungan multi-layer terhadap ancaman siber, perimeter keamanan fisik pintar dengan analitik kecerdasan buatan, dan kontrol akses fasilitas terintegrasi.
             </p>
             <ul class="feature-checklist">
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Next-Generation Firewall (NGFW) & Intrusion Prevention
+                <span data-i18n="sol_3_f1">Next-Generation Firewall (NGFW) & Proteksi Malware</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                AI Video Analytics Surveillance (Face & License Recognition)
+                <span data-i18n="sol_3_f2">Kamera CCTV Pintar dengan Pengenalan Wajah & Objek AI</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Access Control, Turnstile & Smart Barrier Gate
+                <span data-i18n="sol_3_f3">Access Door RFID/Biometrik & Absensi Karyawan Terpusat</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Vulnerability Assessment & Security Hardening
+                <span data-i18n="sol_3_f4">Security Audit & Penetrasi Jaringan Komprehensif</span>
               </li>
             </ul>
           </div>
@@ -522,9 +529,9 @@
             <div class="service-brands">
               <span class="brand-pill">Fortinet</span>
               <span class="brand-pill">Hikvision</span>
-              <span class="brand-pill">Sophos</span>
+              <span class="brand-pill">Kaspersky</span>
             </div>
-            <button type="button" class="btn btn-secondary btn-sm" data-open-modal>Audit Keamanan</button>
+            <button type="button" class="btn btn-secondary btn-sm" data-open-modal data-i18n="sol_3_btn">Konsultasi Keamanan</button>
           </div>
         </article>
 
@@ -538,30 +545,30 @@
               </svg>
             </div>
             <div>
-              <h3>Software Consultant & 24/7 SLA Support</h3>
-              <span class="service-badge">Custom Dev & Maintenance</span>
+              <h3 data-i18n="sol_4_title">Software Architecture & SLA Maintenance</h3>
+              <span class="service-badge" data-i18n="sol_4_badge">Continuous Operation</span>
             </div>
           </div>
           <div class="service-body">
-            <p>
+            <p data-i18n="sol_4_desc">
               Pengembangan perangkat lunak kustom berorientasi bisnis, virtualisasi server, serta kontrak pemeliharaan teknis berkala (Maintenance Contract) untuk kelangsungan sistem tanpa downtime.
             </p>
             <ul class="feature-checklist">
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Rancang Bangun Web App, ERP & Sistem Database Enterprise
+                <span data-i18n="sol_4_f1">Kontrak Pemeliharaan SLA Rutin (Responsif < 2 Jam)</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Server Virtualization & Hyper-Converged (VMware / Proxmox)
+                <span data-i18n="sol_4_f2">Virtualisasi Server (VMware / Proxmox Enterprise)</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Kontrak Maintenance & Preventive Visit Teknisi Onsite
+                <span data-i18n="sol_4_f3">Pemantauan Jaringan Proaktif 24/7 dari NOC Bandung</span>
               </li>
               <li>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Pelatihan & Training Operasional Admin / User
+                <span data-i18n="sol_4_f4">Kustomisasi Aplikasi ERP, CRM & Integrasi API Bisnis</span>
               </li>
             </ul>
           </div>
@@ -571,7 +578,7 @@
               <span class="brand-pill">Microsoft</span>
               <span class="brand-pill">Linux</span>
             </div>
-            <button type="button" class="btn btn-secondary btn-sm" data-open-modal>Konsultasi SLA</button>
+            <button type="button" class="btn btn-secondary btn-sm" data-open-modal data-i18n="sol_4_btn">Konsultasi SLA</button>
           </div>
         </article>
 
@@ -587,9 +594,9 @@
     <div class="container">
       
       <div class="text-center">
-        <span class="section-badge">💰 Simulasi Finansial Enterprise</span>
-        <h2 class="section-title">Kalkulator Perbandingan <span class="gradient-text">CapEx vs Managed Rental</span></h2>
-        <p class="section-desc">
+        <span class="section-badge" data-i18n="calc_badge">💰 Simulasi Finansial Enterprise</span>
+        <h2 class="section-title" data-i18n-html="calc_title">Kalkulator Perbandingan <span class="gradient-text">CapEx vs Managed Rental</span></h2>
+        <p class="section-desc" data-i18n="calc_desc">
           Bandingkan biaya beli langsung (CapEx) dengan skema Managed IT Device Rental dari PT Skill Nusa Infotama. Nikmati peremajaan unit rutin, garansi penggantian instan, dan efisiensi arus kas.
         </p>
       </div>
@@ -599,7 +606,7 @@
         <div class="calc-controls">
           <div class="calc-slider-group">
             <label for="slider-devices">
-              <span>Jumlah Armada Perangkat (Laptop/PC Workstation):</span>
+              <span data-i18n="calc_lbl_devices">Jumlah Armada Perangkat (Laptop/PC Workstation):</span>
               <span class="val" id="val-devices">30 Unit</span>
             </label>
             <input type="range" id="slider-devices" min="10" max="200" step="5" value="30">
@@ -607,18 +614,18 @@
 
           <div class="calc-slider-group">
             <label for="slider-duration">
-              <span>Durasi Kontrak Kerjasama:</span>
+              <span data-i18n="calc_lbl_duration">Durasi Kontrak Kerjasama:</span>
               <span class="val" id="val-duration">24 Bulan</span>
             </label>
             <input type="range" id="slider-duration" min="12" max="36" step="6" value="24">
           </div>
 
           <div style="background: var(--bg-tertiary); padding: 1.25rem; border-radius: var(--radius-md); border:1px solid var(--border-color);">
-            <h5 style="color:var(--accent-cyan); font-size:0.9rem; margin-bottom:0.5rem;">Keuntungan Managed Rental Skill Nusa:</h5>
+            <h5 style="color:var(--accent-cyan); font-size:0.9rem; margin-bottom:0.5rem;" data-i18n="calc_adv_title">Keuntungan Managed Rental Skill Nusa:</h5>
             <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5;">
-              ✓ Bebas depresiasi nilai buku & asset management yang rumit.<br>
-              ✓ Unit pengganti (backup unit) selalu siap onsite.<br>
-              ✓ Sudah termasuk lisensi resmi, software antivirus & SLA teknisi standby.
+              <span data-i18n="calc_adv_1">✓ Bebas depresiasi nilai buku & asset management yang rumit.</span><br>
+              <span data-i18n="calc_adv_2">✓ Unit pengganti (backup unit) selalu siap onsite.</span><br>
+              <span data-i18n="calc_adv_3">✓ Sudah termasuk lisensi, software antivirus & SLA teknisi standby.</span>
             </p>
           </div>
         </div>
@@ -631,20 +638,20 @@
 
           <div class="calc-comparison-grid">
             <div class="calc-comp-card">
-              <h5>Estimasi Biaya Beli Sendiri (CapEx)</h5>
+              <h5 data-i18n="calc_capex_title">Estimasi Biaya Beli Sendiri (CapEx)</h5>
               <div class="price" id="calc-capex-total">Rp 618.000.000</div>
-              <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.35rem;">(Beli unit + sparepart + staff IT internal)</p>
+              <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.35rem;" data-i18n="calc_capex_note">(Beli unit + sparepart + staff IT internal)</p>
             </div>
 
             <div class="calc-comp-card highlight">
-              <h5>Skema Managed Service Skill Nusa</h5>
+              <h5 data-i18n="calc_rental_title">Skema Managed Service Skill Nusa</h5>
               <div class="price" id="calc-rental-total">Rp 468.000.000</div>
-              <p style="font-size:0.75rem; color:var(--accent-sky); margin-top:0.35rem;">(All-in monthly rental + Full Support SLA)</p>
+              <p style="font-size:0.75rem; color:var(--accent-sky); margin-top:0.35rem;" data-i18n="calc_rental_note">(All-in monthly rental + Full Support SLA)</p>
             </div>
           </div>
 
-          <button type="button" class="btn btn-primary" style="width:100%;" data-open-modal>
-            Minta Simulasi Resmi untuk Perusahaan Anda
+          <button type="button" class="btn btn-primary" style="width:100%;" data-open-modal data-i18n="calc_btn_quote">
+            Minta Simulasi untuk Perusahaan Anda
           </button>
         </div>
 
@@ -660,20 +667,20 @@
     <div class="container">
       
       <div class="text-center">
-        <span class="section-badge">🏆 Rekam Jejak Teruji</span>
-        <h2 class="section-title">Studi Kasus & <span class="gradient-text">Proyek Implementasi</span></h2>
-        <p class="section-desc">
+        <span class="section-badge" data-i18n="portfolio_badge">🏆 Rekam Jejak Teruji</span>
+        <h2 class="section-title" data-i18n-html="portfolio_title">Studi Kasus & <span class="gradient-text">Proyek Implementasi</span></h2>
+        <p class="section-desc" data-i18n="portfolio_desc">
           Bukti nyata keahlian tim engineer PT Skill Nusa Infotama dalam mengawal keandalan sistem jaringan dan teknologi di berbagai instansi prestisius.
         </p>
       </div>
 
       <!-- Filter Buttons -->
       <div class="portfolio-filter">
-        <button type="button" class="filter-btn active" data-filter="all">Semua Proyek</button>
-        <button type="button" class="filter-btn" data-filter="network">Jaringan & Data Center</button>
-        <button type="button" class="filter-btn" data-filter="hardware">Hardware & Fleet Rental</button>
-        <button type="button" class="filter-btn" data-filter="security">Keamanan Siber & CCTV</button>
-        <button type="button" class="filter-btn" data-filter="software">Software & Managed Service</button>
+        <button type="button" class="filter-btn active" data-filter="all" data-i18n="filter_all">Semua Proyek</button>
+        <button type="button" class="filter-btn" data-filter="network" data-i18n="filter_network">Jaringan & Data Center</button>
+        <button type="button" class="filter-btn" data-filter="hardware" data-i18n="filter_hardware">Hardware & Fleet Rental</button>
+        <button type="button" class="filter-btn" data-filter="security" data-i18n="filter_security">Keamanan Siber & CCTV</button>
+        <button type="button" class="filter-btn" data-filter="software" data-i18n="filter_software">Software & Managed Service</button>
       </div>
 
       <!-- Portfolio Grid -->
@@ -789,63 +796,63 @@
       <div class="about-grid">
         
         <div>
-          <span class="section-badge">🏢 Profil Perusahaan</span>
-          <h2 class="section-title">Dedikasi Lebih Dari <span class="gradient-text">25 Tahun</span> di Industri IT</h2>
-          <p style="color:var(--text-secondary); margin-bottom:1.5rem; line-height:1.7;">
+          <span class="section-badge" data-i18n="about_badge">🏢 Profil Perusahaan</span>
+          <h2 class="section-title" data-i18n-html="about_title">Dedikasi Lebih Dari <span class="gradient-text">25 Tahun</span> di Industri IT</h2>
+          <p style="color:var(--text-secondary); margin-bottom:1.5rem; line-height:1.7;" data-i18n-html="about_p1">
             <strong>PT Skill Nusa Infotama</strong> didirikan pada tahun 1999 di Bandung dengan visi menjadi mitra teknologi nomor satu bagi korporasi dan institusi publik di Indonesia.
           </p>
-          <p style="color:var(--text-secondary); margin-bottom:2rem; line-height:1.7;">
+          <p style="color:var(--text-secondary); margin-bottom:2rem; line-height:1.7;" data-i18n-html="about_p2">
             Dengan filosofi <em>"Total Solution for Customer"</em>, kami mengintegrasikan hardware, software, konektivitas jaringan, serta keamanan siber untuk menciptakan ekosistem kerja yang aman, cepat, dan berkinerja tinggi.
           </p>
 
           <div class="about-features-list">
             <div class="about-feat-item">
-              <h5>📍 Tim Teknis Lokal Bandung</h5>
-              <p>Dukungan teknisi onsite yang cepat untuk area Bandung, Jawa Barat, dan sekitarnya.</p>
+              <h5 data-i18n="about_feat_1_t">📍 Tim Teknis Lokal Bandung</h5>
+              <p data-i18n="about_feat_1_d">Dukungan teknisi onsite yang cepat untuk area Bandung, Jawa Barat, dan sekitarnya.</p>
             </div>
             <div class="about-feat-item">
-              <h5>📜 Legalitas & Kepatuhan Penuh</h5>
-              <p>Terdaftar resmi di LPSE, PaDi UMKM, dan memenuhi syarat pengadaan BUMN/Pemerintah.</p>
+              <h5 data-i18n="about_feat_2_t">📜 Legalitas & Kepatuhan Penuh</h5>
+              <p data-i18n="about_feat_2_d">Terdaftar di LPSE, PaDi UMKM, dan memenuhi syarat pengadaan BUMN/Pemerintah.</p>
             </div>
             <div class="about-feat-item">
-              <h5>🤝 Sertifikasi Prinsipal</h5>
-              <p>Engineer tersertifikasi Cisco, Aruba, Fortinet, Mikrotik, dan VMware.</p>
+              <h5 data-i18n="about_feat_3_t">🤝 Sertifikasi Prinsipal</h5>
+              <p data-i18n="about_feat_3_d">Engineer tersertifikasi Cisco, Aruba, Fortinet, Mikrotik, dan VMware.</p>
             </div>
             <div class="about-feat-item">
-              <h5>⚡ Komitmen Garansi SLA</h5>
-              <p>Respons cepat, unit pengganti darurat, dan jaminan sparepart orisinal resmi.</p>
+              <h5 data-i18n="about_feat_4_t">⚡ Komitmen Garansi SLA</h5>
+              <p data-i18n="about_feat_4_d">Respons cepat, unit pengganti darurat, dan jaminan sparepart orisinal.</p>
             </div>
           </div>
         </div>
 
         <!-- Milestones Timeline Box -->
         <div class="timeline-box">
-          <h3 style="font-size:1.2rem; font-weight:700; margin-bottom:1.5rem; color:var(--accent-cyan);">
+          <h3 style="font-size:1.2rem; font-weight:700; margin-bottom:1.5rem; color:var(--accent-cyan);" data-i18n="timeline_heading">
             Perjalanan & Transformasi Skill Nusa
           </h3>
 
           <div class="timeline-item">
             <div class="timeline-year">1999</div>
-            <h4>Pendirian PT Skill Nusa Infotama</h4>
-            <p>Mengawali kiprah sebagai konsultan perangkat lunak dan penyedia perangkat keras IT di Bandung.</p>
+            <h4 data-i18n="timeline_1_t">Pendirian PT Skill Nusa Infotama</h4>
+            <p data-i18n="timeline_1_d">Mengawali kiprah sebagai konsultan perangkat lunak dan penyedia perangkat keras IT di Bandung.</p>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-year">2008</div>
-            <h4>Ekspansi ke System & Network Integration</h4>
-            <p>Memperluas layanan pada instalasi infrastruktur fiber optic, data center, dan jaringan enterprise.</p>
+            <h4 data-i18n="timeline_2_t">Ekspansi ke System & Network Integration</h4>
+            <p data-i18n="timeline_2_d">Memperluas layanan pada instalasi infrastruktur fiber optic, data center, dan jaringan enterprise.</p>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-year">2016</div>
-            <h4>Peluncuran Managed IT Service & Rental Fleet</h4>
-            <p>Membantu korporasi memangkas CapEx melalui skema sewa perangkat komputasi lengkap dengan SLA.</p>
+            <h4 data-i18n="timeline_3_t">Peluncuran Managed IT Service & Rental Fleet</h4>
+            <p data-i18n="timeline_3_d">Membantu korporasi memangkas CapEx melalui skema sewa perangkat komputasi lengkap dengan SLA.</p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-year">KINI & Masa Depan</div>
-            <h4>Smart Cyber Defense & AI Infrastructure</h4>
-            <p>Mengintegrasikan sistem keamanan siber mutakhir, AI CCTV surveillance, dan otomasi cloud.</p>
+            <div class="timeline-year" data-i18n="timeline_4_year">KINI & Masa Depan</div>
+            <h4 data-i18n="timeline_4_t">Smart Cyber Defense & AI Infrastructure</h4>
+            <p data-i18n="timeline_4_d">Mengintegrasikan sistem keamanan siber mutakhir, AI CCTV surveillance, dan otomasi cloud.</p>
           </div>
         </div>
 
@@ -861,9 +868,9 @@
     <div class="container">
       
       <div class="text-center">
-        <span class="section-badge">📞 Hubungi Tim Ahli Kami</span>
-        <h2 class="section-title">Konsultasikan Solusi IT <span class="gradient-text">Sekarang Juga</span></h2>
-        <p class="section-desc">
+        <span class="section-badge" data-i18n="contact_badge">📞 Hubungi Tim Ahli Kami</span>
+        <h2 class="section-title" data-i18n-html="contact_title">Konsultasikan Solusi IT <span class="gradient-text">Sekarang Juga</span></h2>
+        <p class="section-desc" data-i18n="contact_desc">
           Diskusikan rencana pengadaan perangkat, peremajaan jaringan, atau kebutuhan kontrak pemeliharaan bersama konsultan kami.
         </p>
       </div>
@@ -876,7 +883,7 @@
           <div class="contact-card">
             <div class="contact-icon">📍</div>
             <div>
-              <h4>Kantor Resmi</h4>
+              <h4 data-i18n="contact_card_office">Kantor</h4>
               <p>Jalan Gajah No. 21, Turangga, Lengkong, Kota Bandung, Jawa Barat 40264</p>
             </div>
           </div>
@@ -884,18 +891,18 @@
           <div class="contact-card">
             <div class="contact-icon">☎️</div>
             <div>
-              <h4>Telepon</h4>
+              <h4 data-i18n="contact_card_phone">Telepon</h4>
               <p>
                 Telp: <a href="tel:0227315253">(022) 7315253</a> / <a href="tel:0227318113">(022) 7318113</a>
               </p>
-              <p style="font-size:0.8rem; color:var(--text-muted);">Senin - Jumat: 08.30 - 17.00 WIB</p>
+              <p style="font-size:0.8rem; color:var(--text-muted);" data-i18n="contact_card_hours">Senin - Jumat: 08.30 - 17.00 WIB</p>
             </div>
           </div>
 
           <div class="contact-card">
             <div class="contact-icon">✉️</div>
             <div>
-              <h4>Email Resmi</h4>
+              <h4 data-i18n="contact_card_email">Email</h4>
               <p>
                 <a href="mailto:support@skillnusa.co.id">support@skillnusa.co.id</a>
               </p>
@@ -916,34 +923,34 @@
 
         <!-- Interactive Quote Form -->
         <div class="form-panel">
-          <h3 class="form-title">Formulir Permintaan Penawaran</h3>
-          <p class="form-subtitle">Lengkapi formulir di bawah ini, tim kami akan merespons dalam waktu 1x24 jam kerja.</p>
+          <h3 class="form-title" data-i18n="form_title">Formulir Permintaan Penawaran</h3>
+          <p class="form-subtitle" data-i18n="form_subtitle">Lengkapi formulir di bawah ini, tim kami akan merespons dalam waktu 1x24 jam kerja.</p>
 
           <form id="mainContactForm">
             <div class="form-row">
               <div class="form-group">
-                <label for="fullName">Nama Lengkap *</label>
-                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Contoh: Budi Santoso" required>
+                <label for="fullName" data-i18n="form_lbl_name">Nama Lengkap *</label>
+                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Contoh: Budi Santoso" data-i18n-placeholder="form_placeholder_name" required>
               </div>
               <div class="form-group">
-                <label for="company">Instansi / Perusahaan</label>
-                <input type="text" id="company" name="company" class="form-control" placeholder="Contoh: PT Industri Bersama">
+                <label for="company" data-i18n="form_lbl_company">Instansi / Perusahaan</label>
+                <input type="text" id="company" name="company" class="form-control" placeholder="Contoh: PT Industri Bersama" data-i18n-placeholder="form_placeholder_company">
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="email">Alamat Email *</label>
-                <input type="email" id="email" name="email" class="form-control" placeholder="budi@perusahaan.co.id" required>
+                <label for="email" data-i18n="form_lbl_email">Alamat Email *</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="budi@perusahaan.co.id" data-i18n-placeholder="form_placeholder_email" required>
               </div>
               <div class="form-group">
-                <label for="phone">Nomor Telepon / WhatsApp *</label>
-                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Contoh: 08123456789" required>
+                <label for="phone" data-i18n="form_lbl_phone">Nomor Telepon / WhatsApp *</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Contoh: 08123456789" data-i18n-placeholder="form_placeholder_phone" required>
               </div>
             </div>
 
             <div class="form-group">
-              <label for="service">Kategori Solusi yang Dibutuhkan</label>
+              <label for="service" data-i18n="form_lbl_service">Kategori Solusi yang Dibutuhkan</label>
               <select id="service" name="service" class="form-control">
                 <option value="System & Network Integration">System & Network Integration (Fiber Optic / Data Center)</option>
                 <option value="Hardware Procurement & Rental">Pengadaan Hardware & Managed Rental (Laptop/Server)</option>
@@ -955,12 +962,12 @@
             </div>
 
             <div class="form-group">
-              <label for="message">Deskripsi Kebutuhan & Estimasi Volume</label>
-              <textarea id="message" name="message" class="form-control" placeholder="Ceritakan kebutuhan spesifik Anda, jumlah perangkat, atau lokasi implementasi..."></textarea>
+              <label for="message" data-i18n="form_lbl_message">Deskripsi Kebutuhan & Estimasi Volume</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Ceritakan kebutuhan spesifik Anda, jumlah perangkat, atau lokasi implementasi..." data-i18n-placeholder="form_placeholder_message"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary" style="width: 100%;">
-              <span>Kirim Permintaan & Terhubung ke WhatsApp</span>
+              <span data-i18n="form_submit_btn">Kirim Permintaan & Terhubung ke WhatsApp</span>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"></path>
               </svg>
@@ -982,11 +989,11 @@
       <!-- Pre-Footer Action Strip (Footer Bagian Atas) -->
       <div class="footer-top-strip">
         <div class="footer-strip-text">
-          <h3>Solusi Total Infrastruktur IT & System Integration</h3>
-          <p>Didukung tim engineer tersertifikasi resmi sejak 1999 di Bandung. Siap melayani kebutuhan enterprise dan instansi Anda.</p>
+          <h3 data-i18n="footer_strip_title">Solusi Total Infrastruktur IT & System Integration</h3>
+          <p data-i18n="footer_strip_desc">Didukung tim engineer tersertifikasi sejak 1999 di Bandung. Siap melayani kebutuhan enterprise dan instansi Anda.</p>
         </div>
         <div class="footer-strip-actions">
-          <a href="#kontak" class="btn btn-primary btn-sm" data-open-modal>Konsultasi Sekarang</a>
+          <a href="#kontak" class="btn btn-primary btn-sm" data-open-modal><span data-i18n="footer_strip_consult">Konsultasi Sekarang</span></a>
           <a href="https://wa.me/62811206820" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp CS</a>
         </div>
       </div>
@@ -1000,7 +1007,7 @@
               <img src="assets/images/logo_skill_bandung.png" alt="PT Skill Nusa Infotama - Skill Bandung">
             </div>
           </div>
-          <p class="footer-brand-desc">
+          <p class="footer-brand-desc" data-i18n-html="footer_brand_desc">
             PT Skill Nusa Infotama adalah penyedia solusi <strong>System Network Integration</strong>, <strong>Technology Solution Provider</strong>, dan <strong>Software Consultant</strong> terpercaya di Bandung sejak 1999 dengan komitmen <em>Total Solution for Customer</em>.
           </p>
           <div class="footer-badges-wrap">
@@ -1011,7 +1018,7 @@
 
         <!-- Kolom 2: Solusi Unggulan -->
         <div class="footer-col">
-          <h4 class="footer-heading">Solusi Unggulan</h4>
+          <h4 class="footer-heading" data-i18n="footer_heading_solutions">Solusi Unggulan</h4>
           <ul class="footer-links-list">
             <li><a href="#solusi">Network Integration & Data Center</a></li>
             <li><a href="#solusi">Hardware & Server Procurement</a></li>
@@ -1024,47 +1031,47 @@
 
         <!-- Kolom 3: Navigasi Cepat -->
         <div class="footer-col">
-          <h4 class="footer-heading">Navigasi Cepat</h4>
+          <h4 class="footer-heading" data-i18n="footer_heading_nav">Navigasi Cepat</h4>
           <ul class="footer-links-list">
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#solusi">Produk & Solusi</a></li>
-            <li><a href="#advisor">Solution Finder (Advisor)</a></li>
-            <li><a href="#kalkulator">Kalkulator TCO (CapEx vs Rental)</a></li>
-            <li><a href="#portofolio">Portofolio & Studi Kasus</a></li>
-            <li><a href="#tentang-kami">Tentang Kami</a></li>
-            <li><a href="#kontak">Hubungi Kami</a></li>
+            <li><a href="#beranda" data-i18n="nav_home">Beranda</a></li>
+            <li><a href="#solusi" data-i18n="nav_solutions">Produk & Solusi</a></li>
+            <li><a href="#advisor" data-i18n="nav_advisor">Solution Finder (Advisor)</a></li>
+            <li><a href="#kalkulator" data-i18n="nav_calculator">Kalkulator TCO (CapEx vs Rental)</a></li>
+            <li><a href="#portofolio" data-i18n="nav_portfolio">Portofolio & Studi Kasus</a></li>
+            <li><a href="#tentang-kami" data-i18n="nav_about">Tentang Kami</a></li>
+            <li><a href="#kontak" data-i18n="nav_contact">Hubungi Kami</a></li>
           </ul>
         </div>
 
-        <!-- Kolom 4: Kontak Resmi -->
+        <!-- Kolom 4: Kontak -->
         <div class="footer-col">
-          <h4 class="footer-heading">Kontak Resmi</h4>
+          <h4 class="footer-heading" data-i18n="footer_heading_contact">Kontak</h4>
           <ul class="footer-contact-list">
             <li>
               <span class="f-contact-icon">📍</span>
               <div class="f-contact-text">
-                <span class="f-contact-label">Kantor Utama:</span>
+                <span class="f-contact-label" data-i18n="footer_contact_office_lbl">Kantor Utama:</span>
                 <span>Jl. Gajah No. 21, Turangga, Bandung 40264</span>
               </div>
             </li>
             <li>
               <span class="f-contact-icon">☎️</span>
               <div class="f-contact-text">
-                <span class="f-contact-label">Telepon Kantor:</span>
+                <span class="f-contact-label" data-i18n="footer_contact_phone_lbl">Telepon Kantor:</span>
                 <span><a href="tel:0227315253">(022) 7315253</a> / <a href="tel:0227318113">(022) 7318113</a></span>
               </div>
             </li>
             <li>
               <span class="f-contact-icon">💬</span>
               <div class="f-contact-text">
-                <span class="f-contact-label">WhatsApp CS:</span>
+                <span class="f-contact-label" data-i18n="footer_contact_wa_lbl">WhatsApp CS:</span>
                 <span><a href="https://wa.me/62811206820" target="_blank" rel="noopener">+62 811-206-820</a></span>
               </div>
             </li>
             <li>
               <span class="f-contact-icon">✉️</span>
               <div class="f-contact-text">
-                <span class="f-contact-label">Email Resmi:</span>
+                <span class="f-contact-label" data-i18n="footer_contact_email_lbl">Email:</span>
                 <span><a href="mailto:support@skillnusa.co.id">support@skillnusa.co.id</a></span>
               </div>
             </li>
@@ -1074,13 +1081,13 @@
       </div>
 
       <div class="footer-bottom">
-        <div>
+        <div data-i18n="footer_copyright">
           &copy; 1999 - 2026 PT Skill Nusa Infotama. Seluruh Hak Cipta Dilindungi.
         </div>
         <div class="footer-bottom-links">
-          <a href="#beranda">Kebijakan Privasi</a>
-          <a href="#beranda">Syarat Layanan</a>
-          <a href="#beranda" class="back-to-top">Kembali ke Atas ↑</a>
+          <a href="#beranda" data-i18n="footer_privacy">Kebijakan Privasi</a>
+          <a href="#beranda" data-i18n="footer_terms">Syarat Layanan</a>
+          <a href="#beranda" class="back-to-top" data-i18n="footer_top">Kembali ke Atas ↑</a>
         </div>
       </div>
     </div>
@@ -1107,48 +1114,48 @@
     <div class="modal-content">
       <button type="button" class="modal-close" aria-label="Tutup Form">&times;</button>
       
-      <h3 style="font-size:1.4rem; font-weight:700; color:var(--text-primary); margin-bottom:0.5rem;">
+      <h3 style="font-size:1.4rem; font-weight:700; color:var(--text-primary); margin-bottom:0.5rem;" data-i18n="modal_title">
         Konsultasi Teknis & Penawaran
       </h3>
-      <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1.75rem;">
+      <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1.75rem;" data-i18n="modal_desc">
         Diskusikan langsung kebutuhan arsitektur sistem bersama konsultan senior PT Skill Nusa Infotama.
       </p>
 
       <form id="modalQuoteForm">
         <div class="form-group">
-          <label for="modal-solution-input">Solusi Terpilih</label>
+          <label for="modal-solution-input" data-i18n="modal_lbl_solution">Solusi Terpilih</label>
           <input type="text" id="modal-solution-input" name="service" class="form-control" value="Konsultasi Solusi IT Total" readonly>
         </div>
 
         <div class="form-row">
           <div class="form-group">
-            <label for="modalName">Nama Lengkap *</label>
-            <input type="text" id="modalName" name="fullName" class="form-control" placeholder="Nama Anda" required>
+            <label for="modalName" data-i18n="modal_lbl_name">Nama Lengkap *</label>
+            <input type="text" id="modalName" name="fullName" class="form-control" placeholder="Nama Anda" data-i18n-placeholder="modal_placeholder_name" required>
           </div>
           <div class="form-group">
-            <label for="modalCompany">Perusahaan / Instansi</label>
-            <input type="text" id="modalCompany" name="company" class="form-control" placeholder="Nama Instansi">
+            <label for="modalCompany" data-i18n="modal_lbl_company">Perusahaan / Instansi</label>
+            <input type="text" id="modalCompany" name="company" class="form-control" placeholder="Nama Instansi" data-i18n-placeholder="modal_placeholder_company">
           </div>
         </div>
 
         <div class="form-row">
           <div class="form-group">
-            <label for="modalEmail">Email Perusahaan *</label>
-            <input type="email" id="modalEmail" name="email" class="form-control" placeholder="email@perusahaan.co.id" required>
+            <label for="modalEmail" data-i18n="modal_lbl_email">Email Perusahaan *</label>
+            <input type="email" id="modalEmail" name="email" class="form-control" placeholder="email@perusahaan.co.id" data-i18n-placeholder="modal_placeholder_email" required>
           </div>
           <div class="form-group">
-            <label for="modalPhone">Nomor WhatsApp *</label>
-            <input type="tel" id="modalPhone" name="phone" class="form-control" placeholder="08xxxxxxxxxx" required>
+            <label for="modalPhone" data-i18n="modal_lbl_phone">Nomor WhatsApp *</label>
+            <input type="tel" id="modalPhone" name="phone" class="form-control" placeholder="08xxxxxxxxxx" data-i18n-placeholder="modal_placeholder_phone" required>
           </div>
         </div>
 
         <div class="form-group">
-          <label for="modalMessage">Kebutuhan Spesifik / Pertanyaan</label>
-          <textarea id="modalMessage" name="message" class="form-control" placeholder="Tuliskan spesifikasi yang Anda cari, estimasi waktu implementasi, atau pertanyaan teknis..."></textarea>
+          <label for="modalMessage" data-i18n="modal_lbl_message">Kebutuhan Spesifik / Pertanyaan</label>
+          <textarea id="modalMessage" name="message" class="form-control" placeholder="Tuliskan spesifikasi yang Anda cari, estimasi waktu implementasi, atau pertanyaan teknis..." data-i18n-placeholder="modal_placeholder_message"></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary" style="width:100%;">
-          <span>Hubungi Tim Konsultan via WhatsApp</span>
+          <span data-i18n="modal_submit_btn">Hubungi Tim Konsultan via WhatsApp</span>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
