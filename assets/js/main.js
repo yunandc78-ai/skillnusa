@@ -155,7 +155,7 @@ const translations = {
     hero_live_sla: "SLA 24/7 Verified",
 
     // Partners
-    partners_title: "Didukung oleh Prinsipal Teknologi Global",
+    partners_title: "Didukung oleh Prinsipal Teknologi Global & Terdaftar Resmi",
 
     // Solution Advisor
     advisor_badge: "⚡ Smart Recommendation Engine",
@@ -184,7 +184,7 @@ const translations = {
     // Solutions
     solutions_badge: "💼 Layanan Komprehensif",
     solutions_title: 'Solusi Teknologi & <span class="gradient-text">Layanan Unggulan</span>',
-    solutions_desc: "Kombinasi komprehensif antara perangkat keras bergaransi, integrasi jaringan terstandardisasi, perlindungan siber mutakhir, serta layanan managed services.",
+    solutions_desc: "Kombinasi komprehensif antara perangkat keras bergaransi resmi, integrasi jaringan terstandardisasi, perlindungan siber mutakhir, serta layanan managed services.",
     sol_1_title: "System & Network Integration",
     sol_1_badge: "Core Foundation",
     sol_1_desc: "Perancangan dan penggelaran infrastruktur jaringan end-to-end dengan performa tinggi, zero packet-loss, dan skalabilitas jangka panjang untuk instansi pemerintahan dan korporasi.",
@@ -197,7 +197,7 @@ const translations = {
     sol_2_title: "Hardware Procurement & Rental Fleet",
     sol_2_badge: "Zero CapEx Solution",
     sol_2_desc: "Penyediaan perangkat komputasi enterprise seperti server rackmount, SAN/NAS storage, laptop & PC workstation kantor melalui skema beli langsung atau sewa terkelola.",
-    sol_2_f1: "Server Enterprise Rackmount & Tower Bergaransi",
+    sol_2_f1: "Server Enterprise Rackmount & Tower Bergaransi Resmi",
     sol_2_f2: "Sewa Laptop & PC Fleksibel (12 - 36 Bulan) Tanpa CapEx",
     sol_2_f3: "Backup Replacement Unit Siap Pasang Onsite",
     sol_2_f4: "Sistem Penyimpanan Terpusat (SAN/NAS) & Backup Disaster",
@@ -230,12 +230,12 @@ const translations = {
     calc_adv_title: "Keuntungan Managed Rental Skill Nusa:",
     calc_adv_1: "✓ Bebas depresiasi nilai buku & asset management yang rumit.",
     calc_adv_2: "✓ Unit pengganti (backup unit) selalu siap onsite.",
-    calc_adv_3: "✓ Sudah termasuk lisensi, software antivirus & SLA teknisi standby.",
+    calc_adv_3: "✓ Sudah termasuk lisensi resmi, software antivirus & SLA teknisi standby.",
     calc_capex_title: "Estimasi Biaya Beli Sendiri (CapEx)",
     calc_capex_note: "(Beli unit + sparepart + staff IT internal)",
     calc_rental_title: "Skema Managed Service Skill Nusa",
     calc_rental_note: "(All-in monthly rental + Full Support SLA)",
-    calc_btn_quote: "Minta Simulasi untuk Perusahaan Anda",
+    calc_btn_quote: "Minta Simulasi Resmi untuk Perusahaan Anda",
     unit_word: "Unit",
     month_word: "Bulan",
     savings_prefix: "Hemat ± ",
@@ -260,11 +260,11 @@ const translations = {
     about_feat_1_t: "📍 Tim Teknis Lokal Bandung",
     about_feat_1_d: "Dukungan teknisi onsite yang cepat untuk area Bandung, Jawa Barat, dan sekitarnya.",
     about_feat_2_t: "📜 Legalitas & Kepatuhan Penuh",
-    about_feat_2_d: "Terdaftar di LPSE, PaDi UMKM, dan memenuhi syarat pengadaan BUMN/Pemerintah.",
+    about_feat_2_d: "Terdaftar resmi di LPSE, PaDi UMKM, dan memenuhi syarat pengadaan BUMN/Pemerintah.",
     about_feat_3_t: "🤝 Sertifikasi Prinsipal",
     about_feat_3_d: "Engineer tersertifikasi Cisco, Aruba, Fortinet, Mikrotik, dan VMware.",
     about_feat_4_t: "⚡ Komitmen Garansi SLA",
-    about_feat_4_d: "Respons cepat, unit pengganti darurat, dan jaminan sparepart orisinal.",
+    about_feat_4_d: "Respons cepat, unit pengganti darurat, dan jaminan sparepart original resmi.",
     timeline_heading: "Perjalanan & Transformasi Skill Nusa",
     timeline_1_t: "Pendirian PT Skill Nusa Infotama",
     timeline_1_d: "Mengawali kiprah sebagai konsultan perangkat lunak dan penyedia perangkat keras IT di Bandung.",
@@ -301,7 +301,7 @@ const translations = {
 
     // Footer
     footer_strip_title: "Solusi Total Infrastruktur IT & System Integration",
-    footer_strip_desc: "Didukung tim engineer tersertifikasi sejak 1999 di Bandung. Siap melayani kebutuhan enterprise dan instansi Anda.",
+    footer_strip_desc: "Didukung tim engineer tersertifikasi resmi sejak 1999 di Bandung. Siap melayani kebutuhan enterprise dan instansi Anda.",
     footer_strip_consult: "Konsultasi Sekarang",
     footer_brand_desc: 'PT Skill Nusa Infotama adalah penyedia solusi <strong>System Network Integration</strong>, <strong>Technology Solution Provider</strong>, dan <strong>Software Consultant</strong> terpercaya di Bandung sejak 1999 dengan komitmen <em>Total Solution for Customer</em>.',
     footer_heading_solutions: "Solusi Unggulan",
@@ -362,7 +362,7 @@ const translations = {
     hero_live_sla: "SLA 24/7 Verified",
 
     // Partners
-    partners_title: "Supported by Global Technology Principals",
+    partners_title: "Supported by Global Technology Principals & Officially Registered",
 
     // Solution Advisor
     advisor_badge: "⚡ Smart Recommendation Engine",
@@ -391,7 +391,7 @@ const translations = {
     // Solutions
     solutions_badge: "💼 Comprehensive Services",
     solutions_title: 'Technology Solutions & <span class="gradient-text">Flagship Services</span>',
-    solutions_desc: "A comprehensive combination of enterprise hardware with warranty, standardized network integration, advanced cyber defense, and managed services.",
+    solutions_desc: "A comprehensive combination of official-warranty enterprise hardware, standardized network integration, advanced cyber defense, and managed services.",
     sol_1_title: "System & Network Integration",
     sol_1_badge: "Core Foundation",
     sol_1_desc: "End-to-end network infrastructure design and deployment featuring high performance, zero packet-loss, and long-term scalability for government agencies and enterprise corporations.",
@@ -404,7 +404,7 @@ const translations = {
     sol_2_title: "Hardware Procurement & Rental Fleet",
     sol_2_badge: "Zero CapEx Solution",
     sol_2_desc: "Provisioning of enterprise computing hardware including rackmount servers, SAN/NAS storage, laptops & workstation PCs through direct purchase or managed rental schemes.",
-    sol_2_f1: "Enterprise Rackmount & Tower Servers with Warranty",
+    sol_2_f1: "Enterprise Rackmount & Tower Servers with Official Warranty",
     sol_2_f2: "Flexible Laptop & PC Fleet Rental (12 - 36 Mos) Zero CapEx",
     sol_2_f3: "Hot-Standby Onsite Replacement Units Ready",
     sol_2_f4: "Centralized Storage Systems (SAN/NAS) & Disaster Recovery",
@@ -442,7 +442,7 @@ const translations = {
     calc_capex_note: "(Hardware purchase + spare parts + internal IT staff)",
     calc_rental_title: "Skill Nusa Managed Service Scheme",
     calc_rental_note: "(All-in monthly rental + Full Support SLA)",
-    calc_btn_quote: "Request Simulation for Your Organization",
+    calc_btn_quote: "Request Official Simulation for Your Organization",
     unit_word: "Units",
     month_word: "Months",
     savings_prefix: "Save approx ± ",
@@ -467,7 +467,7 @@ const translations = {
     about_feat_1_t: "📍 Local Bandung Engineering Team",
     about_feat_1_d: "Rapid onsite technician support for Bandung, West Java, and surrounding regions.",
     about_feat_2_t: "📜 Full Legality & Compliance",
-    about_feat_2_d: "Registered on LPSE, PaDi UMKM, meeting all state and enterprise procurement standards.",
+    about_feat_2_d: "Officially registered on LPSE, PaDi UMKM, meeting all state and enterprise procurement standards.",
     about_feat_3_t: "🤝 Principal Certifications",
     about_feat_3_d: "Certified engineers across Cisco, Aruba, Fortinet, MikroTik, and VMware.",
     about_feat_4_t: "⚡ SLA Warranty Commitment",
@@ -487,7 +487,7 @@ const translations = {
     contact_badge: "📞 Connect with Our Experts",
     contact_title: 'Consult Your IT Solutions <span class="gradient-text">Right Now</span>',
     contact_desc: "Discuss hardware procurement plans, network overhauls, or routine maintenance contracts with our senior consultants.",
-    contact_card_office: "Office",
+    contact_card_office: "Headquarters",
     contact_card_phone: "Telephone",
     contact_card_hours: "Monday - Friday: 08:30 - 17:00 WIB",
     contact_card_email: "Email",
@@ -508,7 +508,7 @@ const translations = {
 
     // Footer
     footer_strip_title: "Total IT Infrastructure & System Integration Solutions",
-    footer_strip_desc: "Backed by certified engineers since 1999 in Bandung. Ready to serve your enterprise and institutional needs.",
+    footer_strip_desc: "Backed by officially certified engineers since 1999 in Bandung. Ready to serve your enterprise and institutional needs.",
     footer_strip_consult: "Consult Now",
     footer_brand_desc: 'PT Skill Nusa Infotama is a trusted <strong>System Network Integration</strong>, <strong>Technology Solution Provider</strong>, and <strong>Software Consultant</strong> in Bandung since 1999 with the commitment <em>Total Solution for Customer</em>.',
     footer_heading_solutions: "Featured Solutions",
@@ -685,7 +685,7 @@ const solutionDatabase = {
   "default": {
     id: {
       title: "Custom Integrated IT Solution & Managed Architecture",
-      desc: "Solusi terpadu mencakup pengadaan perangkat keras enterprise, konfigurasi jaringan terpusat, firewall proteksi siber, dan kontrak pemeliharaan berkala bergaransi.",
+      desc: "Solusi terpadu mencakup pengadaan perangkat keras enterprise, konfigurasi jaringan terpusat, firewall proteksi siber, dan kontrak pemeliharaan berkala bergaransi resmi.",
       tags: ["Network Integration", "Enterprise Hardware", "Cyber Security", "Full Managed Service"],
       recHardware: "Dell/Lenovo Enterprise, Cisco/Fortinet, Schneider APC",
       sla: "Standar Layanan SLA Responsif < 4 Jam"
